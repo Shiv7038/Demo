@@ -12,7 +12,7 @@ import utils.LogUtil;
 import static utils.BrowserFactry.getDriver;
 
 public class LoginTest extends BaseClass {
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void loginTest(){
         WebDriver driver= getDriver();
         LoginAction lp = new LoginAction(driver);
