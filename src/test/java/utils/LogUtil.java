@@ -1,13 +1,14 @@
 package utils;
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
-import java.util.logging.Logger;
 
 public class LogUtil {
 
-    private static final Logger logger = Logger.getLogger(String.valueOf(LogUtil.class));
+    public static final Logger logger = LogManager.getLogger(LogUtil.class);
 
     /**
      * Message print the test case message in the log (level=info)
@@ -52,7 +53,7 @@ public class LogUtil {
      */
     public static void fail(String description) {
         if (description != null) {
-            //logger.error(description);
+            logger.error(description);
            // ExtentManager.fail(description);
         }
     }
@@ -65,7 +66,7 @@ public class LogUtil {
      */
     public static void fail(String description, WebDriver driver) {
         if (description != null) {
-//            logger.error(description);
+          logger.error(description);
 //            ExtentManager.fail(description, driver);
         }
     }
@@ -77,7 +78,7 @@ public class LogUtil {
      */
     public static void fail(Throwable description) {
         if (description != null) {
-//            logger.error(description);
+            logger.error(description);
 //            ExtentManager.fail(description);
         }
     }
