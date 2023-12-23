@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: test.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.159 sec <<< FAILURE!
-loginTest(test.LoginTest)  Time elapsed: 0.146 sec  <<< FAILURE!
-java.lang.AssertionError: expected [General/Navigation.aspx] but found [Whizible 23]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at test.LoginTest.loginTest(LoginTest.java:18)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.708 sec

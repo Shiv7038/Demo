@@ -245,22 +245,6 @@ public class WaitUtil {
         };
     }
 
-    /*
- wait For The Element Visible And Handle Popup no record found
- */
-//    public static void waitForTheElementVisibleAndHandlePopup(WebDriver driver, WebElement element, String elementName) {
-//        boolean flag = true;
-//        try {
-//            BrowserActions.noRecordFoundPopUpHandler(driver);
-//            flag = false;
-//        } catch (Exception e) {
-//
-//        }
-//        if (flag == true) {
-//            WaitUtil.waitForTheElementVisible(driver, element, "elementName");
-//        }
-//    }
-
     /**
      * Common method for fixed time wait(Avoid to use)
      *

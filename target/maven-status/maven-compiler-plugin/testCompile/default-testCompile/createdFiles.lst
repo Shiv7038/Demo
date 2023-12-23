@@ -2,6 +2,8 @@ test\LoginTest.class
 utils\BrowserFactry.class
 utils\WaitUtil.class
 actions\LoginAction.class
+utils\VerifyUlis.class
 Base\BaseClass.class
 page\LoginPage.class
+utils\LogUtil.class
 utils\ReadConfig.class
