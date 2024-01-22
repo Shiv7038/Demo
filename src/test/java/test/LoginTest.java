@@ -24,6 +24,6 @@ public class LoginTest extends BaseClass {
     public void log(){
         logger.info("hii");
         logger.error("error");
-
+        System.out.println("Hii");
     }
 }
