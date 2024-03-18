@@ -1,0 +1,17 @@
+[INFO ] 2023-12-24 17:41:45.825 [TestNG-test=Sanity-1] LogUtil - WebElement Is Present: SignIn
+[INFO ] 2023-12-24 21:40:49.215 [TestNG-test=Sanity-1] LogUtil - WebElement Is Present: SignIn
+[INFO ] 2023-12-29 13:09:17.243 [TestNG-test=Sanity-1] LogUtil - WebElement Is Present: SignIn
+[INFO ] 2023-12-29 13:20:31.379 [TestNG-test=Sanity-1] LogUtil - WebElement Is Present: SignIn
+[INFO ] 2023-12-29 13:44:13.030 [TestNG-test=Sanity1-1] LogUtil - WebElement Is Present: SignIn
+[INFO ] 2023-12-29 13:45:15.150 [TestNG-test=Sanity-1] LogUtil - WebElement Is Present: SignIn
+[INFO ] 2023-12-29 13:46:18.349 [TestNG-test=Sanity1-1] LogUtil - WebElement Is Present: SignIn
+[INFO ] 2024-01-05 07:06:59.361 [main] LogUtil - I am in onStart method LoginTest
+[INFO ] 2024-01-05 07:06:59.464 [main] LogUtil - invalidLoginTest_InvalidUserNameInvalidPassword test is starting.
+[INFO ] 2024-01-05 07:06:59.467 [main] LogUtil - invalidLoginTest_InvalidUserNameInvalidPassword test is skipped.
+[INFO ] 2024-01-05 07:06:59.471 [main] LogUtil - invalidLoginTest_InvalidUserNameInvalidPassword test is failed.
+[INFO ] 2024-01-05 07:06:59.472 [main] LogUtil - I am in onFinish method LoginTest
+[INFO ] 2024-01-28 21:08:59.772 [main] LogUtil - Start of Suite
+[INFO ] 2024-01-28 21:09:00.341 [main] LogUtil - Set the Driver
+[INFO ] 2024-01-28 21:09:03.724 [main] LogUtil - Test Case LoginTest_loginTest started on browser Chrome at 28/01/2024 21:09:03
+[INFO ] 2024-01-28 21:09:03.733 [main] LogUtil - Test case LoginTest_loginTest Skipped
+[INFO ] 2024-01-28 21:09:04.533 [main] LogUtil - Failed to move report

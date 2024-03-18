@@ -1,9 +1,12 @@
 test\LoginTest.class
-utils\BrowserFactry.class
-utils\WaitUtil.class
+page\bb.class
 actions\LoginAction.class
 utils\VerifyUlis.class
 Base\BaseClass.class
 page\LoginPage.class
 utils\LogUtil.class
 utils\ReadConfig.class
+utils\BrowserFactry.class
+utils\WaitUtil.class
+utils\ExtentManager.class
+utils\ScreenShortManager.class

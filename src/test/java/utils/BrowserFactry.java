@@ -33,7 +33,15 @@ public class BrowserFactry {
                 }
             else if (browserName.equalsIgnoreCase("edge")) {
                 EdgeOptions edgeOptions = new EdgeOptions();
-                edgeOptions.setCapability("silent", true);
+                edgeOptions.addArguments("----ignore-certificate-errors-spki-list");
+                edgeOptions.addArguments("--test-type");
+                edgeOptions.addArguments("allow-running-insecure-content");
+                edgeOptions.addArguments("--disable-popup-blocking");
+                edgeOptions.addArguments("--disable-extensions");
+                edgeOptions.addArguments("--lang=en");
+                edgeOptions.addArguments("--remote-allow-origins=*");
+                edgeOptions.setAcceptInsecureCerts(true);
+                edgeOptions.addArguments("--disable-application-cache");
                 driver = new EdgeDriver(edgeOptions);
             }
         } catch (UnreachableBrowserException e) {
